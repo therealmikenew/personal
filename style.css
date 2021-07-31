@@ -1,9 +1,45 @@
 body {
-    background: #c5d7de;
+    background: #9fa0b5;
     text-align: center;
   }
 
 h1, h2 {
-    font-family: "Times New Roman";
+    font-family: sans-serif;
     text-align: center;
+    color: #3f4045;
+    letter-spacing: .4rem;
 }  
+
+#name {
+  font-size: 75px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
