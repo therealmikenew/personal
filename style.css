@@ -3,7 +3,7 @@ body {
     text-align: center;
   }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: sans-serif;
     text-align: center;
     color: #3f4045;
@@ -32,14 +32,26 @@ h1, h2 {
   color: white;
 }
 
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
 .fa-twitter {
   background: #55ACEE;
   color: white;
 }
 
-
-
 .fa-vimeo {
   background: #45bbff;
   color: white;
+}
+
+#personal {
+  background-color:#d5e7f5;
+  color: #3f4045;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
