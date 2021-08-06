@@ -87,21 +87,21 @@ const myQuestions = [
     correctAnswer: "c"
   },
   {
-    question: "Which one of these is a JavaScript package manager?",
+    question: "Question 2",
     answers: {
-      a: "Node.js",
-      b: "TypeScript",
-      c: "npm"
+      a: "1",
+      b: "2",
+      c: "3"
     },
     correctAnswer: "c"
   },
   {
-    question: "Which tool can you use to ensure code quality?",
+    question: "Question 3",
     answers: {
-      a: "Angular",
-      b: "jQuery",
-      c: "RequireJS",
-      d: "ESLint"
+      a: "1",
+      b: "2",
+      c: "3",
+      d: "4"
     },
     correctAnswer: "d"
   }
