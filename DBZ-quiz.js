@@ -68,11 +68,19 @@ function showResults(){
   });
 
   // show number of correct answers out of total
-  resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
 
   if (numCorrect === 3) {
-    return "Wow!";
+    resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}. Wow! Very nice!`;
   }
+  if (numCorrect === 2) {
+    resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}. Not bad!`
+  }
+  if (numCorrect === 1) {
+    resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}. It's OK. You don't know me yet!`
+  } 
+  resultsContainer.innerHTML = `Dang, ${numCorrect} out of ${myQuestions.length}. We should really get to know one another!`
+
+  
 }
 
 const quizContainer = document.getElementById('quiz');
