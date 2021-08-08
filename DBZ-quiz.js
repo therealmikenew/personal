@@ -78,8 +78,9 @@ function showResults(){
   if (numCorrect === 1) {
     resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}. It's OK. You don't know me yet!`
   } 
+   if (numCorrect === 0){
   resultsContainer.innerHTML = `Dang, ${numCorrect} out of ${myQuestions.length}. We should really get to know one another!`
-
+   }
   
 }
 
