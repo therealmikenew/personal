@@ -69,6 +69,10 @@ function showResults(){
 
   // show number of correct answers out of total
   resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+
+  if (numCorrect === 3) {
+    return "Wow!";
+  }
 }
 
 const quizContainer = document.getElementById('quiz');
@@ -77,33 +81,32 @@ const submitButton = document.getElementById('submit');
 
 const myQuestions = [
   {
-    question: "You're at a bar with friends and some jerks are harrassing your crew. What do you do?",
+    question: "In college, I wrote a one-man show called Let's Find C.J.! where I talked about my love of Dragonball Z.",
     answers: {
-      a: "Talk to them. Reason with them. Deescalate things as much as possible.",
-      b: "Move to another section of the bar.",
-      c: "Ignore them.",
-      d: "Go alpha dog! Put them in their place and get physical if need be!"
+      a: "True",
+      b: "False"
     },
-    correctAnswer: "c"
+    correctAnswer: "a"
   },
   {
-    question: "Question 2",
+    question: "I once dressed as Vegeta, one of the main characters, for Halloween.",
     answers: {
-      a: "1",
-      b: "2",
-      c: "3"
+      a: "True",
+      b: "False"
     },
-    correctAnswer: "c"
+    correctAnswer: "b"
   },
   {
-    question: "Question 3",
+    question: "My favorite character is _______",
     answers: {
-      a: "1",
-      b: "2",
-      c: "3",
-      d: "4"
+      a: "Goku",
+      b: "Vegeta",
+      c: "Gohan",
+      d: "Bulma",
+      e: "Piccolo",
+      f: "I can't pick a favorite! I love them all!"
     },
-    correctAnswer: "d"
+    correctAnswer: "c"
   }
 ];
 

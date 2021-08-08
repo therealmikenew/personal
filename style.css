@@ -3,7 +3,7 @@ body {
     text-align: center;
   }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
     font-family: sans-serif;
     text-align: center;
     color: #3f4045;
@@ -51,6 +51,16 @@ h1, h2, h3 {
   background-color:#d5e7f5;
   color: #3f4045;
   padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.projects {
+  font-family: sans-serif;
+  background-color:#d5e7f5;
+  color: #3f4045;
+  padding: 5px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;

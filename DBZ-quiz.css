@@ -4,6 +4,13 @@ body{
 	color: #333;
     text-align: center;
 }
+
+#description {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
 .question{
 	font-weight: 600;
 }
